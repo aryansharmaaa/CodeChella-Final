@@ -1,0 +1,43 @@
+/* landing.css */
+
+/* Header */
+#header {
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Button */
+  #compile-button {
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 0.375rem;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
+    background-color: white;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  #compile-button:disabled {
+    opacity: 0.5;
+  }
+  
+  #compile-button:hover {
+    background-color: #f8f8f8;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Output Details */
+  #output-details {
+    margin-top: 1rem;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 0.375rem;
+  }
+  
+  /* Footer */
+  #footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #999;
+  }
+  
