@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // import Signup from './Register';
-import '../index1.css';
+import '../utils/index1.css';
+import '../utils/app.css';
 import logo from '../assets/logo.png';
 // import bg from '../assets/bg.png';
 import toast from 'react-hot-toast';
